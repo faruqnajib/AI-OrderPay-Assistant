@@ -70,18 +70,30 @@ Workflow yang berfokus pada keamanan. Menggunakan node Crypto untuk validasi pem
 ---
 
 ### 3. Database & File Organization
-Data tersusun rapi di Google Sheets dan file desain tersimpan aman di Google Drive tanpa campur tangan manusia.
+Data tersusun rapi di Google Sheets dan file desain tersimpan di Google Drive.
 
-![Google Sheets Data](src/assets/db-preview.png)
+![Google Sheets Data](img/sheet.png)
 *(Screenshot Google Sheet)*
 
 ---
 
-### 4. Bot Interaksi & Laporan
-Admin bisa mengetik `/done` di Telegram untuk menyelesaikan pesanan, dan sistem akan mengirim laporan harian.
+![Google Drive Data](img/drive.png)
+*(Screenshot Google Drive)*
 
-![Telegram Bot](src/assets/tele-bot.png)
+---
+
+### 4. Bot Interaksi & Laporan
+Bot interaksi terdiri dari 2, yang pertama notif orderan. Bot ini untuk internal karyawan yang berfungsi menerima notif apabila ada orderan yang masuk dan karyawan bisa mengetik `/done` di Telegram untuk menyelesaikan pesanan. Bot yang kedua yaitu admin yang berfungsi mengirim notif ke pemesan apabila pembayaran sudah diterima dan pesanan sudah selesai dan siap diambil.
+
+![Telegram Bot](img/tele1.png)
 *(Screenshot interaksi Telegram)*
+
+---
+
+![Telegram Bot](img/tele2.png)
+*(Screenshot interaksi Telegram)*
+
+---
 
 ## ✨ Fitur Demonstrasi
 
