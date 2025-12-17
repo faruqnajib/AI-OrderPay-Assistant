@@ -1,8 +1,9 @@
 # AI-OrderPay-Assistant: End-to-End Order & Payment Automation dengan n8n
 
 **[WARNING] !!! Gunakan data dummy jika ingin mencoba**  
-**Project Status**: Active / Portfolio Demo  
-**Platform**: n8n (Self-hosted/Cloud)
+**Demo**: https://carbonprinting.vercel.app/  
+**Google Sheet**: https://docs.google.com/spreadsheets/d/11b_ORLeM_Rx8eA9wp6L9DuW3-6V3cLBkJ9_Bs8atBm0/edit?usp=sharing  
+**Google Drive**: https://drive.google.com/drive/folders/1kG9ya1mytrXVQiaPpzvhDOXEMGltJUEC?usp=sharing
 
 Proyek ini adalah demonstrasi sistem otomasi cerdas yang menangani siklus pesanan (*Order Fulfillment*), mulai dari penerimaan order, manajemen pembayaran, hingga pelaporan. Menggunakan **n8n** sebagai otak utama, sistem ini menggabungkan AI untuk pembacaan data tidak terstruktur dan kriptografi untuk keamanan pembayaran.
 
@@ -53,18 +54,18 @@ Salah satu fitur unggulan proyek ini adalah keamanan. Alih-alih hanya menerima w
 Berikut adalah gambaran visual dari komponen utama dalam sistem ini.
 
 ### 1. Order Management & AI Parsing
-Workflow ini menangani pesanan masuk. Jika dari email, AI (Gemini) akan "membaca" isi email untuk menentukan siapa pemesannya dan apa detail ordernya.
+Workflow ini menangani pesanan masuk. Jika dari email, AI (Gemini) akan membaca isi email tersebut untuk mengambil data detail pesanan.
 
-![Order Workflow](src/assets/workflow-order.png) 
-*(Screenshot workflow 'order management.json')*
+![Order Workflow](img/workflow-order.png) 
+*(Screenshot workflow order management)*
 
 ---
 
 ### 2. Payment Gateway Verification
 Workflow yang berfokus pada keamanan. Menggunakan node Crypto untuk validasi pembayaran sebelum mengubah status pesanan menjadi "Processing".
 
-![Payment Workflow](src/assets/workflow-payment.png)
-*(Screenshot workflow 'Payment gateway.json')*
+![Payment Workflow](img/workflow-payment.png)
+*(Screenshot workflow Payment gateway)*
 
 ---
 
