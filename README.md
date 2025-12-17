@@ -104,7 +104,7 @@ Workflow ini diintegrasikan kedalam website menggunakan webhook, selain dapat me
 ---
 
 ![Telegram Bot](img/web2.png)
-![Telegram Bot](img/web3.png)
+![Telegram Bot](img/web3.png)  
 *(Screenshot lacak orderan)*
 
 ---
