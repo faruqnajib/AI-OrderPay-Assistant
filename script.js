@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentOrderData = null;
 
     // --- Configuration ---
-    const WEBHOOK_URL_ORDER = 'https://uncongressional-hosea-fastidiously.ngrok-free.dev/webhook/cetak';
+    const WEBHOOK_URL_ORDER = 'https://n8n-kgqnhmcqggko.perak.sumopod.my.id/webhook/cetak';
     // PLACEHOLDER: Ganti dengan URL webhook status n8n yang sebenarnya
-    const WEBHOOK_URL_STATUS = 'https://uncongressional-hosea-fastidiously.ngrok-free.dev/webhook/trackorder';
+    const WEBHOOK_URL_STATUS = 'https://n8n-kgqnhmcqggko.perak.sumopod.my.id/webhook/trackorder';
 
     // --- Mobile Menu Toggle ---
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
@@ -748,3 +748,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
